@@ -2,50 +2,69 @@
   "dependencies": {
     "R": [
       {
-        "name": "ctmm",
+        "name": "ctmm"
+      },
+      {
         "name": "purrr"
+      },
+      {
+        "name": "dplyr"
       }
     ]
   },
-  "createsArtifacts": true,
+    "createsArtifacts": true,
   "license": {
     "key": "MIT"
   },
   "language": "eng",
   "keywords": [
-    "example",
-    "template"
+    "speed",
+    "distance", 
+    "ctmm"
   ],
   "people": [
     {
-      "firstName": "Charles",
+      "firstName": "Marco",
       "middleInitials": null,
-      "lastName": "Darwin",
-      "email": "creator@example.com",
+      "lastName": "Sciaini",
+      "email": "marco@kaldera.dev",
       "roles": [
         "author",
         "creator"
       ],
-      "orcid": null,
-      "affiliation": null,
+      "orcid": "0000-0002-3042-5435",
+      "affiliation": "Kaldera",
       "affiliationRor": null
+    }, 
+    {
+      "firstName": "Johannes",
+      "middleInitials": null,
+      "lastName": "Signer",
+      "email": "jmsigner@gmail.com",
+      "roles": [
+        "author",
+        "creator"
+      ],
+      "orcid": "0000-0002-1771-7775" ,
+      "affiliation": "University of Goettingen",
+      "affiliationRor": "01y9bpm73"
     }
   ],
   "funding": [
     {
-      "name": "funder name",
-      "comment": "grant for App"
+      "name": " NSF award 1914928",
+      "comment": "Grant for developing the app"
     }
   ],
   "references": [
     {
       "type": "IsDescribedBy",
-      "note": "Darwin, C. 1900. The creation. Journal XY. 1-2",
-      "url": "https://anylink.xyz"
+      "note": "Documentation of the `speed()`-function",
+      "url": "https://rdrr.io/cran/ctmm/man/speed.html"
     }
   ],
   "documentation": {
-    "url": "https://github.com/yourAccount/my-app/README.md"
+    "url": "https://github.com/ctmm-initiative/ctmmMoveApp_speeddistance/blob/main/README.md"
   }
 }
 
