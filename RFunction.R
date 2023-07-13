@@ -3,10 +3,6 @@ library(purrr)
 library(dplyr)
 
 rFunction = function(data) {
-  
-  
-  ##
-  data <- readRDS("data/raw/input8_ctmm_model_with_data.rds")
 
   s1 <- map2(data[[1]], data[[2]], ~ speed(.x, .y, units = FALSE, trace = FALSE))
   
