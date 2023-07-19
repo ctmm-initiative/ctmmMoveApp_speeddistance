@@ -32,4 +32,4 @@ none
 Please make an issue [here](https://github.com/ctmm-initiative/ctmmMoveApp_speeddistance/issues) if you repeatedly encounter a specific error.
 
 ### Null or error handling
-If the few data points are available, speed can not be estiamted and `NA` is returned. 
+If the few data points are available, speed can not be estimated and `NA` is returned. 
